@@ -1,5 +1,11 @@
 # nw.js-winxp-demo
 构建一个Windows XP网页项目
+## 项目预览
+
+以下是项目的预览图片:
+
+![项目预览](public/demo.png)
+
 
 启动项目 `yarn start`
 构建exe文件 `yarn build`
