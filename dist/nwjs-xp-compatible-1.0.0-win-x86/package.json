@@ -1,0 +1,1 @@
+{"name":"nwjs-xp-compatible","version":"1.0.0","description":"一个兼容Windows XP的NW.js项目","main":"index.html","dependencies":{"nw":"0.14.7-sdk"},"window":{"title":"NW.js XP兼容项目","width":800,"height":600,"min_width":400,"min_height":300,"resizable":true},"webkit":{"plugin":true},"license":"MIT"}

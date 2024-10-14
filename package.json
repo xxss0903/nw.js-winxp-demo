@@ -1,0 +1,39 @@
+{
+  "name": "nwjs-xp-compatible",
+  "version": "1.0.0",
+  "description": "一个兼容Windows XP的NW.js项目",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw .",
+    "build": "build --tasks win-x86 ."
+  },
+  "build": {
+    "nwVersion": "0.14.7",
+    "targets": ["zip", "nsis7z"],
+    "files": [
+      "**/*"
+    ],
+    "excludes": [
+      "node_modules/**/*"
+    ],
+    "output": "dist/"
+  },
+  "dependencies": {
+    "nw": "0.14.7-sdk"
+  },
+  "devDependencies": {
+    "nwjs-builder-phoenix": "^1.15.0"
+  },
+  "window": {
+    "title": "NW.js XP兼容项目",
+    "width": 800,
+    "height": 600,
+    "min_width": 400,
+    "min_height": 300,
+    "resizable": true
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "license": "MIT"
+}

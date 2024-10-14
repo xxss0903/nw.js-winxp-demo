@@ -1,0 +1,32 @@
+# 依赖目录
+node_modules/
+
+# NW.js构建输出
+build/
+
+# 日志文件
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置文件
+.vscode/
+.idea/
+
+# 环境变量文件
+.env
+
+# 临时文件
+*.tmp
+*.temp
+
+# 调试文件
+*.debug
+
+# npm包锁定文件（如果您不想将其包含在版本控制中）
+# package-lock.json
+
+# 用户特定的文件
+config.user.json
